@@ -6,7 +6,7 @@ Not stable at the moment, I'm changing variable names and organizing like crazy,
 
 Dependencies
 ===
- - AngularJS 1.20 or higher
+ - AngularJS 1.2.20 or higher
  - IonIcons 1.5.2 or higher
 
 Goals
