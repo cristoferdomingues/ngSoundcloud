@@ -5,12 +5,16 @@
 		<title>ngSoundcloud Sample</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 		<link rel="stylesheet" href="style.css">
-		<script src="../libs/angular/angular.min.js"></script>
+		<!--Dependencies-->
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+		<!--ngSoundcloud-->
+		<script src="../ng-soundcloud.js"></script>
 		<head>
 		</head>
 		<body>
 			<div ng-app="ngSoundcloud">
-				<ng-soundcloud track="65576692"></ng-soundcloud><ng-soundcloud track="55862797"></ng-soundcloud>
+				<ng-sc-track track="65576692"></ng-soundcloud><ng-soundcloud track="55862797"></ng-sc-track>
 			</div>
 		</body>
 	</html>
